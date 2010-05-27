@@ -7,8 +7,8 @@ CC=cc
 LDLIBS=$(LDFLAGS)
 NOANSICOMPILE.c=$(CC) $(NOANSICFLAGS) $(CPPFLAGS) -c
 LINK.c=$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
-LDFLAGS=/home/mantovani/libmisc.a
-LIB=/home/mantovani/libmisc.a
+LDFLAGS=/home/mantovani/C/apue/liblibmisc.a
+LIB=/home/mantovani/C/apue/liblibmisc.a
 # Common definitions
 
 CFLAGS	= 
